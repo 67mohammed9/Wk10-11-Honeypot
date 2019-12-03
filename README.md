@@ -55,8 +55,31 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 	- In the new Honeypot VM we need to install the honeypot application into the VM and wire it to connect back to the admin server. This is shown in my gif
 - [x] Milestone 5: Attack!
 	- In kali linux run `nmap -A -T4 <IP-Address-of-Honeypot>`
-	- In the mhn admin browser you should be able to see attack on the honeypot
-    
+	- In the mhn admin browser you should be able to see attacks on the honeypot
+
+
+## Which Honeypots I depoyed:
+- Dionaea (honeypot-1)
+- Amun (honeypot-2)
+- Snort (honeypot-4)
+- Cowrie (honeypot-5)
+- Agave (honeypot-3)
+
+## Which Honeypots I depoyed:
+One Issue I encountered was that when installing the mhn admin I recieved some errors that I couldnt resolve so I would have to restart the process. This took some time.
+
+## Summary of the data Collected
+I will summarize this in my gif
+
+
+
+
+
+
+
+
+
+
     
     
     
