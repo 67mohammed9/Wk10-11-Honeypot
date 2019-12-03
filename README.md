@@ -21,7 +21,10 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 - To check your configurations:	
 	- `gcloud config list`
 - [x] Milestone 1: Create MHN Admin VM 
-      
+   go to google cloud platform on the web -> compute engine - > new instance 
+	-> put inthe region and zone
+	-> choose the Ubuntu 18.04 Minimal boot disk	
+	-> Allow HTTP traffic allowed
 - [x] Milestone 2: Install the MHN Admin Application
       Download 
 - [x] Milestone 3: Create a MHN Honeypot VM 
