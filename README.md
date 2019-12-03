@@ -9,9 +9,9 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 
 ## Setup
 - [x] Milestone 0: To the cloud 
-      - Download sdk, https://cloud.google.com/sdk/docs/quickstarts
-      - Also sign up for this service https://cloud.google.com/free/
-      - Download and install the GCP SDK on your local machine and initialize it             such that you can use gcloud from the command line. Set the time zone as             well
+- Download sdk, https://cloud.google.com/sdk/docs/quickstarts
+- Also sign up for this service https://cloud.google.com/free/
+- Download and install the GCP SDK on your local machine and initialize it such that you can use gcloud from the command line. Set the time zone as             well
 - [x] Milestone 1: Create MHN Admin VM 
       
 - [x] Milestone 2: Install the MHN Admin Application
