@@ -43,12 +43,12 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 	- Then when you get any questions during the installations press n. If its a statement press enter.
 
 - [x] Milestone 3: Create a MHN Honeypot VM 
-      - open up a new cmd terminal.
-      - Make new firewall rule to allow incomming TCP and UDP traffic on all ports for Honeypot:
-      		- `gcloud compute firewall-rules create wideopen --description="Allow TCP and UDP from Anywhere"   --direction ingress  --priority=1000  --network=default  --action=allow  --rules=tcp,udp  --source-ranges=0.0.0.0/0  --target-tags="honeypot"`
-      - Create a VM for honeypot naming it honeypot-1
-      		- `gcloud compute instances create "honeypot-1"  --machine-type "n1-standard-1"  --subnet "default"   --maintenance-policy "MIGRATE"  --tags "honeypot"  --image "ubuntu-minimal-1804-bionic-v20191024" --image-project "ubuntu-os-cloud"  --boot-disk-size "10"   --boot-disk-type "pd-standard"   --boot-disk-device-name "honeypot-1"`
-      - Establish SSH access to the VM using `gcloud compute ssh honeypot-1`
+- Open up a new cmd terminal.
+- Make new firewall rule to allow incomming TCP and UDP traffic on all ports for Honeypot:
+	- `gcloud compute firewall-rules create wideopen --description="Allow TCP and UDP from Anywhere"   --direction ingress  --priority=1000  --network=default  --action=allow  --rules=tcp,udp  --source-ranges=0.0.0.0/0  --target-tags="honeypot"`
+- Create a VM for honeypot naming it honeypot-1
+      	- `gcloud compute instances create "honeypot-1"  --machine-type "n1-standard-1"  --subnet "default"   --maintenance-policy "MIGRATE"  --tags "honeypot"  --image "ubuntu-minimal-1804-bionic-v20191024" --image-project "ubuntu-os-cloud"  --boot-disk-size "10"   --boot-disk-type "pd-standard"   --boot-disk-device-name "honeypot-1"`
+- Establish SSH access to the VM using `gcloud compute ssh honeypot-1`
 
       
 - [x] Milestone 4: Install the Honeypot Application
