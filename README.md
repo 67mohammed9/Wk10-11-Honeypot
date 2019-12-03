@@ -70,7 +70,12 @@ One Issue I encountered was that when installing the mhn admin I recieved some e
 
 ## Summary of the data collected
 I will summarize this in my gif
-
+### Creating an Honeypot VM instance
+![] (CreatingHoneypotVMInstance.gif)
+### Connecting HoneyPot with MHN admin server
+![] (ConnectingHoneypotwithmhn.gif)
+### Attacking the honeypot to reveal hackers information
+![] (AttackingHoneypot.gif)
 
 
 
