@@ -37,10 +37,10 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 - [x] Milestone 2: Install the MHN Admin Application
 	- Run these commands on the new terminal that pops
 Download MHN and install it:
-	- `cd /opt/`
-	- `sudo git clone https://github.com/pwnlandia/mhn.git`
-	- `cd mhn/`
-	- `sudo ./install.sh`
+		- `cd /opt/`
+		- `sudo git clone https://github.com/pwnlandia/mhn.git`
+		- `cd mhn/`
+		- `sudo ./install.sh`
 - [x] Milestone 3: Create a MHN Honeypot VM 
       Download   
 - [x] Milestone 4: Install the Honeypot Application
