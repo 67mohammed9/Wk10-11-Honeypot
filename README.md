@@ -69,13 +69,13 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 One Issue I encountered was that when installing the mhn admin I recieved some errors that I couldnt resolve so I would have to restart the process. This took some time.
 
 ## Summary of the data collected
-I will summarize this in my gif
+I will summarize this in my gifs below
 ### Creating an Honeypot VM instance
-![] (CreatingHoneypotVMInstance.gif)
+![](CreatingHoneypotVMInstance.gif)
 ### Connecting HoneyPot with MHN admin server
-![] (ConnectingHoneypotwithmhn.gif)
+![](ConnectingHoneypotwithmhn.gif)
 ### Attacking the honeypot to reveal hackers information
-![] (AttackingHoneypot.gif)
+![](AttackingHoneypot.gif)
 
 
 
