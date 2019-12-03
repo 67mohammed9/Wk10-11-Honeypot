@@ -52,10 +52,10 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 
       
 - [x] Milestone 4: Install the Honeypot Application
-In the new Honeypot VM we need to install the honeypot application into the VM and wire it to connect back to the admin server.
+	- In the new Honeypot VM we need to install the honeypot application into the VM and wire it to connect back to the admin server. This is shown in my gif
 - [x] Milestone 5: Attack!
-      Download     
-    
+	- In kali linux run `nmap -A -T4 <IP-Address-of-Honeypot>`
+	- In the mhn admin browser you should be able to see attack on the honeypot
     
     
     
