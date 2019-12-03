@@ -8,5 +8,24 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 - Illustration of at least one attack against the honeypot that can be detected or logged in a way that captures information about the attack or the attacker
 
 ## Setup
-### - [x] Milestone 0: To the cloud 
-Download 
+- [x] Milestone 0: To the cloud 
+      - Download sdk, https://cloud.google.com/sdk/docs/quickstarts
+      - Also sign up for this service https://cloud.google.com/free/
+      - Download and install the GCP SDK on your local machine and initialize it             such that you can use gcloud from the command line. Set the time zone as             well
+- [x] Milestone 1: Create MHN Admin VM 
+      
+- [x] Milestone 2: Install the MHN Admin Application
+      Download 
+- [x] Milestone 3: Create a MHN Honeypot VM 
+      Download   
+- [x] Milestone 4: Install the Honeypot Application
+      Download 
+- [x] Milestone 5: Attack!
+      Download     
+    
+    
+    
+    
+    
+    
+    
