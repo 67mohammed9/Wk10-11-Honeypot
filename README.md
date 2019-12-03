@@ -64,6 +64,7 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 - Snort (honeypot-4)
 - Cowrie (honeypot-5)
 - Agave (honeypot-3)
+- p0f (honeypot-6)
 
 ## Which Honeypots I depoyed:
 One Issue I encountered was that when installing the mhn admin I recieved some errors that I couldnt resolve so I would have to restart the process. This took some time.
