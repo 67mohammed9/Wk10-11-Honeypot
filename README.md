@@ -19,7 +19,7 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 	- `set CLOUDSDK_COMPUTE_REGION=us-central1`
 	- `set CLOUDSDK_COMPUTE_ZONE=us-central1-fzone`
 - To check your configurations:	
-- `gcloud config list`
+	- `gcloud config list`
 - [x] Milestone 1: Create MHN Admin VM 
       
 - [x] Milestone 2: Install the MHN Admin Application
