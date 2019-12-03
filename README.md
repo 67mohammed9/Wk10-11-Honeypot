@@ -13,12 +13,13 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 - Also sign up for this service https://cloud.google.com/free/
 - Download and install the GCP SDK on your local machine and initialize it such that you can use gcloud from the command line. Set the time zone as well
 - Do these commands to get started with the command line and set up time zone
-intitialize:
+- Intitialize:
 `gcloud init`
-set the zone and region:
-	`set CLOUDSDK_COMPUTE_REGION=us-central1`
-	`set CLOUDSDK_COMPUTE_ZONE=us-central1-fzone`
-	`gcloud config list`
+- Set the zone and region:
+	- `set CLOUDSDK_COMPUTE_REGION=us-central1`
+	- `set CLOUDSDK_COMPUTE_ZONE=us-central1-fzone`
+- To check your configurations:	
+- `gcloud config list`
 - [x] Milestone 1: Create MHN Admin VM 
       
 - [x] Milestone 2: Install the MHN Admin Application
