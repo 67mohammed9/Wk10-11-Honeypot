@@ -26,10 +26,10 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 	- choose the Ubuntu 18.04 Minimal boot disk	
 	- Allow HTTP traffic allowed
 - Setup the firewall rules
-- `gcloud compute firewall-rules create http --allow tcp:80 --description="Allow HTTP from Anywhere" --direction ingress --target-tags="mhn-admin"`
-- `gcloud compute firewall-rules create honeymap --allow tcp:3000 --description="Allow HoneyMap Feature from Anywhere" --direction ingress --target-tags="mhn-admin"`
-- `gcloud compute firewall-rules create hpfeeds --allow tcp:10000 --description="Allow HPFeeds from Anywhere" --direction ingress --target-tags="mhn-admin"`
--Creating the VM itself, will call using mhn-admin:
+	- `gcloud compute firewall-rules create http --allow tcp:80 --description="Allow HTTP from Anywhere" --direction ingress --target-tags="mhn-admin"`
+	- `gcloud compute firewall-rules create honeymap --allow tcp:3000 --description="Allow HoneyMap Feature from Anywhere" --direction ingress --target-tags="mhn-admin"`
+	- `gcloud compute firewall-rules create hpfeeds --allow tcp:10000 --description="Allow HPFeeds from Anywhere" --direction ingress --target-tags="mhn-admin"`
+- Creating the VM itself, will call using mhn-admin:
 	- `gcloud compute instances create "mhn-admin" --machine-type "n1-standard-1" --subnet "default" --maintenance-policy "MIGRATE"  --tags "mhn-admin"  --image "ubuntu-minimal-1804-bionic-v20191024"  --image-project "ubuntu-os-cloud"  --boot-disk-size "10"  --boot-disk-type "pd-standard"  --boot-disk-device-name "mhn-admin"`
 - Establish ssh access to the VM:
 	- `gcloud compute ssh mhn-admin`
@@ -37,10 +37,10 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 - [x] Milestone 2: Install the MHN Admin Application
 	- Run these commands on the new terminal that pops
 Download MHN and install it:
-	-d /opt/
-	sudo git clone https://github.com/pwnlandia/mhn.git
-	cd mhn/
-	sudo ./install.sh
+	- `cd /opt/`
+	- `sudo git clone https://github.com/pwnlandia/mhn.git`
+	- `cd mhn/`
+	- `sudo ./install.sh`
 - [x] Milestone 3: Create a MHN Honeypot VM 
       Download   
 - [x] Milestone 4: Install the Honeypot Application
