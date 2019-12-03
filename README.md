@@ -8,5 +8,5 @@ The purpose is to stand up a basic honeypot and demonstrate its effectiveness at
 *Illustration of at least one attack against the honeypot that can be detected or logged in a way that captures information about the attack or the attacker
 
 ## Setup
-### [x] Milestone 0:To the cloud
+### - [x] Milestone 0:To the cloud
 Download 
